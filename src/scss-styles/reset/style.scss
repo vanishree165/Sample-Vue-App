@@ -1,0 +1,28 @@
+html,
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+body,
+#app {
+  font-family: "cursive";
+}
+
+.banner-img {
+  max-width: 100%;
+  height: 100vh;
+}
+
+//Nav Tabs Style
+.nav-tabs {
+  border: 0;
+  .nav-link {
+    color: orange;
+    &.active {
+      border: 0;
+      background: orange;
+      color: white;
+      border-radius: 20px;
+    }
+  }
+}
